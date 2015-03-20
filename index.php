@@ -38,12 +38,12 @@
             <div id="slider-wrap">
                 <div id="slider">
                     <img src="./assets/images/1.jpg" />
-                    <img src="./assets/images/2.jpg" />
-                    <img src="./assets/images/3.jpg" />
-                    <img src="./assets/images/4.jpg" />
-                    <img src="./assets/images/5.jpg" />
-                    <img src="./assets/images/6.jpg" />
-                    <img src="./assets/images/7.jpg" />
+                    <img src="./assets/images/2.jpg" class="none" />
+                    <img src="./assets/images/3.jpg" class="none" />
+                    <img src="./assets/images/4.jpg" class="none" />
+                    <img src="./assets/images/5.jpg" class="none" />
+                    <img src="./assets/images/6.jpg" class="none" />
+                    <img src="./assets/images/7.jpg" class="none" />
                 </div><!--#slider-->
 
                 <div id="slider-nav">
