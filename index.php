@@ -7,16 +7,12 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <!-- Place favicon.ico in the root directory -->
-
-       <link rel="stylesheet" type="text/css" href="//cloud.typography.com/7993912/615326/css/fonts.css" />
+        <link rel="stylesheet" type="text/css" href="//cloud.typography.com/7993912/615326/css/fonts.css" />
 
         <link rel="stylesheet" href="./assets/styles/style.min.css">
-        <?php /*<script src="js/vendor/modernizr-2.8.3.min.js"></script> */ ?>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+        <script>window.jQuery || document.write('<script src="./assets/js/jquery-1.11.2.min.js"><\/script>')</script>
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -39,9 +35,22 @@
 
         <div id="content" class="wrap">
 
-            <div id="slider">
-                <img src="./assets/images/slideshow-sample.jpg" />
-            </div><!--#slider-->
+            <div id="slider-wrap">
+                <div id="slider">
+                    <img src="./assets/images/1.jpg" />
+                    <img src="./assets/images/2.jpg" />
+                    <img src="./assets/images/3.jpg" />
+                    <img src="./assets/images/4.jpg" />
+                    <img src="./assets/images/5.jpg" />
+                    <img src="./assets/images/6.jpg" />
+                    <img src="./assets/images/7.jpg" />
+                </div><!--#slider-->
+
+                <div id="slider-nav">
+                    <span id="slider-prev"></span>
+                    <span id="slider-next"></span>
+                </div><!--#slider-nav-->
+            </div><!--#slider-wrap-->
 
             <div id="corporate-profile" class="wrap section">
                 
@@ -197,6 +206,7 @@
 
         </div><!--#footer-->
 
+        <script src="./assets/js/plugins.min.js"></script>
         <script src="./assets/js/app.min.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
