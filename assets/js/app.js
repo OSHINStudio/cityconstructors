@@ -19,7 +19,8 @@ CCI.app = (function() {
                 log:false,
                 speed: 600,
                 prev: '#slider-prev',
-                next: '#slider-next'
+                next: '#slider-next',
+                swipe: true
             });
 
             $('#nav a').on('click', function(){

@@ -122,7 +122,7 @@
 
                     </div><!--.column-2-->
 
-                    <div class="column-2">
+                    <div class="column-2 last">
 
                         <h3>Evan Richardson<br />Vice President</h3>
 
@@ -161,7 +161,7 @@
 
                     </div><!--.column-2-->
 
-                    <div class="column-2">
+                    <div class="column-2 last">
 
                         <div id="contact-info">
 

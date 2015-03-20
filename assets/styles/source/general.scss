@@ -48,8 +48,6 @@ body {
 }
 
 #slider-nav {
-  /*width:160px;
-  height:100px;*/
   width:100%;
   height:50px;
   position: absolute;
@@ -60,11 +58,9 @@ body {
 
   span {
     display: block;
-    /*width:80px;*/
     width:40px;
     height:100%;
     position: absolute;
-    /*float:left;*/
     @include transition(background-color $default-speed $default-transition);
     @include retina-image('../images/next-prev', 80px 50px, 'png');
   }
@@ -116,6 +112,10 @@ body {
 
   .num, h2, h3, p {
     padding-bottom:30px;
+  }
+
+  h2, h3 {
+    text-transform: uppercase;
   }
 
   h2 {
@@ -194,13 +194,17 @@ body {
   }
 
   @include media($tablet) {
-    @include span-columns(6 of 12);
+    @include span-columns(5 of 12);
 
     img {
-      padding:30px;
       margin-bottom:30px;
-      background-color: #a1aeb1;
     }
+  }
+}
+
+.column-2.last {
+  @include media($tablet) {
+    @include shift(1);
   }
 }
 
@@ -236,6 +240,10 @@ body {
   label, input[type="submit"] {
     text-transform: uppercase;
     font-weight: bold;
+  }
+
+  label {
+    font-size:18px;
   }
 
   input[type="submit"] {
