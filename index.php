@@ -198,7 +198,7 @@
                     <li id="s-fb"><a href="https://www.facebook.com/cciteam" target="_blank"><span class="none">Facebook</span></a></li>
                     <li id="s-in"><a href="https://instagram.com/cciteam" target="_blank"><span class="none">Instagram</span></a></li>
                     <li id="s-li"><a href="https://www.linkedin.com/company/city-constructors-inc." target="_blank"><span class="none">Linkedin</span></a></li>
-                </ul>
+                </ul><!--#social-icons-->
 
                 <div id="copyright">&copy; Copyright <?php echo date('Y'); ?>, City Constructors, Inc. All Rights Reserved</div>
 

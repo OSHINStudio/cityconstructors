@@ -110,7 +110,7 @@ body {
     font-weight: 100;
   }
 
-  .num, h2, h3, p {
+  .num, h3, p {
     padding-bottom:30px;
   }
 
@@ -120,6 +120,7 @@ body {
 
   h2 {
     font-size:30px;
+    padding-bottom:60px;
   }
 
   h3 {
@@ -248,10 +249,12 @@ body {
 
   input[type="submit"] {
     width:100%;
+    height:60px;
     padding: 14px 50px 16px 50px;
     border:none;
     background-color: #000;
     color:#fff;
+    font-size:18px;
     @include transition(all $default-speed $default-transition);
 
     @include media($mid-mobile) {
