@@ -1,4 +1,4 @@
-<!doctype html>
+<?php session_start(); ?><!doctype html>
 <html class="no-js" lang="">
     <head>
         <meta charset="utf-8">
@@ -14,6 +14,9 @@
 
         <link rel="stylesheet" href="./assets/styles/style.min.css">
         <?php /*<script src="js/vendor/modernizr-2.8.3.min.js"></script> */ ?>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -40,11 +43,11 @@
                 <img src="./assets/images/slideshow-sample.jpg" />
             </div><!--#slider-->
 
-            <div id="corporate-profile" class="section">
+            <div id="corporate-profile" class="wrap section">
                 
                 <div class="text-column">
 
-                    <div class="padded">
+                    <div class="padded-column">
 
                         <span class="num">01</span>
 
@@ -66,23 +69,134 @@
                             Our core competencies are adaptive reuse, hospitality, creative office space renovations and tenant improvement projects ranging in size from just under one million dollars to upwards of twenty million dollars. The industries we have worked with include hospitality, industrial, and software startup/communications; and we are particularly adept at working with historic buildings.
                         </p>
 
-                    </div><!--.padded-->
+                    </div><!--.padded-column-->
 
                 </div><!--text-column-->
 
                 <div class="image-column">
+
                     <img class="spacer" src="assets/images/spacer.gif" />
                     <span class="image-overlay"></span>
+
                 </div><!--.image-column-->
 
                 <br class="clear" />
 
             </div><!--#corporate-profile-->
 
+
+            <div id="senior-management-team" class="wrap section">
+
+                <div class="padded-column">
+
+                    <span class="num">02</span>
+
+                    <h2>Senior Management Team</h2>
+
+                    <div class="column-2">
+
+                        <h3>Bryson Reaume<br />President</h3>
+
+                        <img src="assets/images/bryson-reaume.jpg" />
+
+                        <p>
+                            Bryson Reaume co-founded City Constructors in 2003 with several key industry partners. Bryson is responsible for all contractual commitments and obligations to the client at the corporate level. He is always available and accessible to the client and the project management team throughout the life of any project CCI takes on.
+                        </p>
+
+                        <p>
+                            Mr. Reaume has over 15 years of design, project, and construction management experience. His knowledge was built from the ground up, as he worked in the trades for half of decade before moving into project and executive management. As the President of CCI, he has overseen over 200 million dollars’ worth of projects to completion.
+                        </p>
+
+                        <p>
+                            Mr. Reaume’s long family history in the industry and his service in the military have taught him the value of an honest day’s work and the value of maintaining relationships, something that he instills at all levels of CCI. Most importantly, Mr. Reaume understands that each client is unique and that engagement and clear communication are critical to the success of every project. We will be adding this to the resume afterwards.
+                        </p>
+
+                    </div><!--.column-2-->
+
+                    <div class="column-2">
+
+                        <h3>Evan Richardson<br />Vice President</h3>
+
+                        <img src="assets/images/evan-richardson.jpg" />
+
+                        <p>
+                            Evan Richardson joined City Constructors in 2005 to help with the company’s rapid expansion. Mr. Richardson came to City Constructors with a solid base of construction experience. Nevertheless, during his time with the company he has rotated through every role. He has proven highly adept and capable as a superintendent, estimator, project engineer, and project manager. His drive and love of construction lead him to work long hours and set a demanding pace. Mr. Richardson’s intelligence and attention to detail are the backbone of City Constructors quality control. He has an eye for identifying potential problems and he ensures that they do not occur.
+                        </p>
+
+                        <p>
+                            Mr. Richardson’s personality and ability to maintain strong relationships has been a key component of City Constructors growth over the last five years. During his time with the company, Mr. Richardson has managed over 150 million dollars’ worth of projects and built many strong client relationships. His dedication and wealth of construction knowledge are cornerstones for the company.
+                        </p>
+
+                    </div><!--.column-2-->
+
+                </div><!--.padded-column-->
+
+            </div><!--#senior-management-team-->
+
+
+            <div id="contact" class="wrap section">
+
+                <div class="padded-column">
+
+                    <span class="num">03</span>
+
+                    <h2>Contact</h2>
+
+                    <div class="column-2">
+
+                        <div id="contact-form">
+
+                            <?php include('inc/contact-form.php'); ?>
+
+                        </div><!--#contact-form-->
+
+                    </div><!--.column-2-->
+
+                    <div class="column-2">
+
+                        <div id="contact-info">
+
+                            <div class="contact-info-row">
+                                <div class="contact-column contact-label">Address</div>
+                                <div class="contact-column">500 Molino Street, Unit 118<br />Los Angeles, CA 90013</div>
+                            </div><!--.contact-info-row-->
+
+                            <div class="contact-info-row">
+                                <div class="contact-column contact-label">Telephone</div>
+                                <div class="contact-column">T 213.628.8882<br />F 213.402.8110</div>
+                            </div><!--.contact-info-row-->
+
+                            <div class="contact-info-row">
+                                <div class="contact-column contact-label">Email</div>
+                                <div class="contact-column">info@cityconstructors.com</div>
+                            </div><!--.contact-info-row-->
+
+                        </div><!--#contact-info-->
+
+                    </div><!--.column-2-->
+
+                </div><!--.padded-column-->
+
+            </div><!--#contact-->
+
         </div><!--.wrap-->
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+        <div id="footer">
+
+            <div class="wrap">
+
+                <ul id="social-icons">
+                    <li id="s-fb"><a href="https://www.facebook.com/cciteam" target="_blank"><span class="none">Facebook</span></a></li>
+                    <li id="s-in"><a href="https://instagram.com/cciteam" target="_blank"><span class="none">Instagram</span></a></li>
+                    <li id="s-li"><a href="https://www.linkedin.com/company/city-constructors-inc." target="_blank"><span class="none">Linkedin</span></a></li>
+                </ul>
+
+                <div id="copyright">&copy; Copyright <?php echo date('Y'); ?>, City Constructors, Inc. All Rights Reserved</div>
+
+            </div><!--.wrap-->
+
+        </div><!--#footer-->
+
         <script src="./assets/js/app.min.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
