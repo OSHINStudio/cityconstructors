@@ -104,9 +104,9 @@
 
                     <div class="column-2">
 
-                        <h3>Bryson Reaume<br />President</h3>
-
                         <img src="assets/images/bryson-reaume.jpg" />
+
+                        <h3>Bryson Reaume<br />President</h3>
 
                         <p>
                             Bryson Reaume co-founded City Constructors in 2003 with several key industry partners. Bryson is responsible for all contractual commitments and obligations to the client at the corporate level. He is always available and accessible to the client and the project management team throughout the life of any project CCI takes on.
@@ -124,9 +124,9 @@
 
                     <div class="column-2 last">
 
-                        <h3>Evan Richardson<br />Vice President</h3>
-
                         <img src="assets/images/evan-richardson.jpg" />
+
+                        <h3>Evan Richardson<br />Vice President</h3>
 
                         <p>
                             Evan Richardson joined City Constructors in 2005 to help with the company’s rapid expansion. Mr. Richardson came to City Constructors with a solid base of construction experience. Nevertheless, during his time with the company he has rotated through every role. He has proven highly adept and capable as a superintendent, estimator, project engineer, and project manager. His drive and love of construction lead him to work long hours and set a demanding pace. Mr. Richardson’s intelligence and attention to detail are the backbone of City Constructors quality control. He has an eye for identifying potential problems and he ensures that they do not occur.

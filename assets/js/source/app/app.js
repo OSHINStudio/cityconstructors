@@ -13,6 +13,8 @@ CCI.app = (function() {
 
             $('#menu-toggle').on('click', function(){
                 $('body').toggleClass('menu-open');
+
+                return false;
             });
 
             $('#slider').cycle({
@@ -28,6 +30,8 @@ CCI.app = (function() {
                     $whichHref = $dis.attr('href');
 
                 CCI.app.scrolltoElement($($whichHref));
+
+                return false;
             });
         }, 
 
