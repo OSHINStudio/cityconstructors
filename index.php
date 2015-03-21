@@ -116,7 +116,7 @@
                             Mr. Reaume has over 15 years of design, project, and construction management experience. His knowledge was built from the ground up, as he worked in the trades for half of decade before moving into project and executive management. As the President of CCI, he has overseen over 200 million dollars’ worth of projects to completion.
                         </p>
 
-                        <p>
+                        <p class="bottom-padd">
                             Mr. Reaume’s long family history in the industry and his service in the military have taught him the value of an honest day’s work and the value of maintaining relationships, something that he instills at all levels of CCI. Most importantly, Mr. Reaume understands that each client is unique and that engagement and clear communication are critical to the success of every project. We will be adding this to the resume afterwards.
                         </p>
 
@@ -132,7 +132,7 @@
                             Evan Richardson joined City Constructors in 2005 to help with the company’s rapid expansion. Mr. Richardson came to City Constructors with a solid base of construction experience. Nevertheless, during his time with the company he has rotated through every role. He has proven highly adept and capable as a superintendent, estimator, project engineer, and project manager. His drive and love of construction lead him to work long hours and set a demanding pace. Mr. Richardson’s intelligence and attention to detail are the backbone of City Constructors quality control. He has an eye for identifying potential problems and he ensures that they do not occur.
                         </p>
 
-                        <p>
+                        <p class="bottom-padd">
                             Mr. Richardson’s personality and ability to maintain strong relationships has been a key component of City Constructors growth over the last five years. During his time with the company, Mr. Richardson has managed over 150 million dollars’ worth of projects and built many strong client relationships. His dedication and wealth of construction knowledge are cornerstones for the company.
                         </p>
 

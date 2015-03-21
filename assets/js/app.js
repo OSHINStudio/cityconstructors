@@ -2,30 +2,30 @@ var CCI = {};
 
 CCI.app = (function() {
 
-	'use strict';
+    'use strict';
 
     var defaultEaseTime = 1250,
         defaultEaseMode = 'easeInOutQuint';
 
-	return {
+    return {
 
         init: function() {
 
-            $('#menu-toggle').on('click', function(){
+            $('#menu-toggle').on('click', function() {
                 $('body').toggleClass('menu-open');
 
                 return false;
             });
 
             $('#slider').cycle({
-                log:false,
+                log: false,
                 speed: 600,
                 prev: '#slider-prev',
                 next: '#slider-next',
                 swipe: true
             });
 
-            $('#nav a').on('click', function(){
+            $('#nav a').on('click', function() {
                 var $dis = $(this),
                     $whichHref = $dis.attr('href');
 
@@ -33,19 +33,19 @@ CCI.app = (function() {
 
                 return false;
             });
-        }, 
+        },
 
-        scrolltoElement: function($selector,$offset) {
-            if(!$selector) {
+        scrolltoElement: function($selector, $offset) {
+            if (!$selector) {
                 return;
-            }
-            else
-            {
-                if(!$offset) {
+            } else {
+                if (!$offset) {
                     $offset = 0;
                 }
 
-                $('html, body').animate({scrollTop:$($selector).offset().top-$offset}, defaultEaseTime/2, defaultEaseMode);
+                $('html, body').animate({
+                    scrollTop: $($selector).offset().top - $offset
+                }, defaultEaseTime / 2, defaultEaseMode);
             }
         }
 
