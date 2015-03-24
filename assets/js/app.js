@@ -31,6 +31,8 @@ CCI.app = (function() {
 
                 CCI.app.scrolltoElement($($whichHref));
 
+                $('body').removeClass('menu-open');
+                
                 return false;
             });
         },
