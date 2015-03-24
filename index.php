@@ -121,7 +121,7 @@
                         </p>
 
                         <p class="bottom-padd">
-                            Mr. Reaume’s long family history in the industry and his service in the military have taught him the value of an honest day’s work and the value of maintaining relationships, something that he instills at all levels of CCI. Most importantly, Mr. Reaume understands that each client is unique and that engagement and clear communication are critical to the success of every project. We will be adding this to the resume afterwards.
+                            Mr. Reaume’s long family history in the industry and his service in the military have taught him the value of an honest day’s work and the value of maintaining relationships, something that he instills at all levels of CCI. Most importantly, Mr. Reaume understands that each client is unique and that engagement and clear communication are critical to the success of every project.
                         </p>
 
                     </div><!--.column-2-->
@@ -181,7 +181,7 @@
 
                             <div class="contact-info-row">
                                 <div class="contact-column contact-label">Email</div>
-                                <div class="contact-column">info@cityconstructors.com</div>
+                                <div class="contact-column"><a href="mailto:info@cityconstructors.com">info@cityconstructors.com</a></div>
                             </div><!--.contact-info-row-->
 
                         </div><!--#contact-info-->
