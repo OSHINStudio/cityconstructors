@@ -1,6 +1,5 @@
 #header {
 	background-color: #fff;
-	/*padding:20px 15px;*/
 	position: fixed;
 	top:0;
 	left:0;
@@ -14,7 +13,7 @@
 }
 
 #content {
-	/*margin-top:;*/
+	margin-top:80px;
 }
 
 #logo {
@@ -38,7 +37,7 @@
 #menu-toggle {
 	display: block;
 	position: absolute;
-	top:28px;
+	top:10px;
 	right:15px;
 	width:25px;
 	height:25px;
@@ -95,7 +94,8 @@
 			display: inline-block;
 			float: left;
 			margin-left:30px;
-			padding:25px 30px 25px 0;
+			/*padding:25px 30px 25px 0;*/
+			padding:0 15px 0 0;
 
 			span {
 				font-size: 20px;
@@ -104,13 +104,13 @@
 	}
 
 	@include media($desktop) {
-		font-size: 18px;
+		font-size: 15px;
 
 		li {
-			padding:15px 30px;
+			/*padding:0 30px;*/
 
 			span {
-				font-size: 30px;
+				font-size: 24px;
 			}
 		}
 	}
@@ -123,7 +123,7 @@
 
 	#nav {
 		display: block;
-		top:80px;
+		top:60px;
 		background-color: #fff;
 	}
 }

@@ -19,19 +19,23 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <div id="header" class="wrap">
+        <div id="header">
 
-            <h1 id="logo"><a href="./"><span>City Constructors</span></a></h1>
+            <div class="wrap">
 
-            <span id="menu-toggle"></span>
+                <h1 id="logo"><a href="./"><span>City Constructors</span></a></h1>
 
-            <ul id="nav">
-                <li><a href="#corporate-profile"><span>01</span>Corporate Profile</a></li>
-                <li><a href="#senior-management-team"><span>02</span>Senior Management Team</a></li>
-                <li><a href="#contact"><span>03</span>Contact</a></li>
-            </ul>
+                <span id="menu-toggle"></span>
 
-        </div><!--.wrap-->
+                <ul id="nav">
+                    <li><a href="#corporate-profile"><span>01</span>Corporate Profile</a></li>
+                    <li><a href="#senior-management-team"><span>02</span>Senior Management Team</a></li>
+                    <li><a href="#contact"><span>03</span>Contact</a></li>
+                </ul>
+
+            </div><!--.wrap-->
+
+        </div><!--#header-->
 
         <div id="content" class="wrap">
 
