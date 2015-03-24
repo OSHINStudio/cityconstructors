@@ -40,7 +40,7 @@ CCI.app = (function() {
                 return;
             } else {
                 if (!$offset) {
-                    $offset = 0;
+                    $offset = 100;
                 }
 
                 $('html, body').animate({
