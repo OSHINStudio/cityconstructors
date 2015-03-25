@@ -2,13 +2,51 @@
 use PFBC\Form;
 use PFBC\Element;
 use PFBC\View;
+
+// show form
+include('inc/PFBC/Form.php');
+
+$form = new Form("contact-form");
+$form->configure(array(
+    "prevent" => array("bootstrap", "jQuery", "focus"),
+    "view" => new View\Vertical,
+    "ajax" => 1,
+    "ajaxCallback" => "successfullyMailedCallback"
+));
+$form->addElement(new Element\Hidden("form", "validation"));
+$form->addElement(new Element\Hidden("form", "ajax"));
+$form->addElement(new Element\Textbox("Name", "Name", array("required" => 1)));
+$form->addElement(new Element\Email("Email:", "Email", array("required" => 1)));
+$form->addElement(new Element\Textarea("Message", "Message", array("required" => 1)));
+$form->addElement(new Element\Button("Submit", "submit"));
+$form->render();
 ?>
+
+<script type="text/javascript">
+function successfullyMailedCallback(resp) {
+
+    var $submitBtn = $('#contact-form input[type="submit"]');
+
+    $submitBtn.fadeOut(function(){
+        $submitBtn.attr({'disabled':'disabled','value':'Message Sent!'});
+        $submitBtn.fadeIn();
+
+        setTimeout(function(){
+            $submitBtn.fadeOut(function(){
+                $submitBtn.removeAttr('disabled').attr({'value':'Submit'});
+                $submitBtn.fadeIn();
+            });
+        },4000);
+    });
+}
+</script>
+
 <?php
-// form is posted
+// form submitted
 if(isset($_POST)&&!empty($_POST)) {
 
     $to = "jason.sherwin@gmail.com";
-    $subject = "Contact Form from jason.sherwin@gmail.com";
+    $subject = "Contact from City Constructors Website";
     $name_field = $_POST['Name'];
     $email_field = $_POST['Email'];
     $message = $_POST['Message'];
@@ -16,33 +54,8 @@ if(isset($_POST)&&!empty($_POST)) {
                'Reply-To: ' . $_POST['Email'] . "\r\n" .
                'X-Mailer: PHP/' . phpversion();
      
-    $body = "From: $name_field\n E-Mail: $email_field\n Message:\n $message";
-    
-    
-    echo '<div id="confirm">';
-        echo '<h2 class="med-txt">Message has been sent!</h2>';
-        echo '<p>Thanks for contacting us. We\'ll get back to you soon!</p>';
-    echo '</div>';
+    $body = "From: $name_field\n\nE-Mail: $email_field\n\nMessage:\n$message";
 
     mail($to, $subject, $body, $headers);
 
-
-} else {
-
-    // show form
-    include('inc/PFBC/Form.php');
-
-    $form = new PFBC\Form("contact-form");
-    $form->configure(array(
-        "prevent" => array("bootstrap", "jQuery", "focus"),
-        "view" => new View\Vertical
-        // "labelToPlaceholder" => 1
-    ));
-    $form->addElement(new PFBC\Element\Textbox("Name", "Name", array("required" => 1)));
-    $form->addElement(new PFBC\Element\Textbox("Email", "Email", array("required" => 1)));
-    $form->addElement(new PFBC\Element\Textarea("Message", "Message", array("required" => 1)));
-    $form->addElement(new PFBC\Element\Button("Submit", "submit", array("class" => "green-button-link bebas")));
-    $form->render();
-
 }
-?>

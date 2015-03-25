@@ -717,7 +717,7 @@ a {
 }
 .section p {
   font-size: 14px;
-  line-height: 17px;
+  line-height: 20px;
 }
 .section .bottom-padd {
   padding-bottom: 30px;
@@ -826,7 +826,7 @@ a {
 #contact-form {
   margin-bottom: 30px;
 }
-#contact-form input[type="text"], #contact-form select, #contact-form textarea {
+#contact-form input, #contact-form select, #contact-form textarea {
   width: 100%;
   padding: 4%;
   margin: 10px 0 15px 0;
@@ -900,6 +900,9 @@ a {
   }
 }
 
+.contact-column {
+  line-height: 20px;
+}
 @media screen and (min-width: 480px) {
   .contact-column {
     float: left;
@@ -1051,6 +1054,7 @@ a {
   #logo {
     width: 250px;
     height: 60px;
+    margin: 20px 25px;
     background-image: url("../images/cci-logo-large.jpg");
   }
 }
@@ -1126,7 +1130,7 @@ a {
     display: inline-block;
     float: left;
     margin-left: 30px;
-    padding: 10px 30px 0 0;
+    padding: 12px 30px 0 0;
   }
   #nav li span {
     font-size: 20px;

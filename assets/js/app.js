@@ -35,6 +35,28 @@ CCI.app = (function() {
                 
                 return false;
             });
+
+            // $('#contact-form input[type="submit"]').on('click', function(){
+
+            //     $.ajax({
+            //         url : './inc/ajax-submit.php',
+            //         type: 'POST',
+            //         // data : formData,
+            //         success: function(data, textStatus, jqXHR)
+            //         {
+            //             //data - response from server
+            //             console.log(data);
+            //         },
+            //         error: function (jqXHR, textStatus, errorThrown)
+            //         {
+            //             console.log('error: ' + errorThrown);
+            //         }
+            //     });
+
+            //     return false;
+
+            // });
+
         },
 
         scrolltoElement: function($selector, $offset) {

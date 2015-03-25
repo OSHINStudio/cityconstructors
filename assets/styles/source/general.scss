@@ -135,7 +135,7 @@ a {
 
   p {
     font-size:14px;
-    line-height: 17px;
+    line-height: 20px;
   }
 
   .bottom-padd {
@@ -245,7 +245,7 @@ a {
 #contact-form {
   margin-bottom:30px;
 
-  input[type="text"], select, textarea {
+  input, select, textarea {
     width:100%;
     padding:4%;
     margin:10px 0 15px 0;
@@ -318,6 +318,8 @@ a {
 }
 
 .contact-column {
+  line-height: 20px;
+
   @include media($mid-mobile) {
     @include span-columns(6 of 12);
   }

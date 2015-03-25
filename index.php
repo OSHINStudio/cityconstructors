@@ -157,7 +157,7 @@
 
                     <div class="column-2">
 
-                        <div id="contact-form">
+                        <div id="contact-form-wrap">
 
                             <?php include('inc/contact-form.php'); ?>
 
