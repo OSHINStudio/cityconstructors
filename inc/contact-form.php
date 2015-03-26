@@ -45,12 +45,12 @@ function successfullyMailedCallback(resp) {
 // form submitted
 if(isset($_POST)&&!empty($_POST)) {
 
-    $to = "jason.sherwin@gmail.com";
+    $to = "info@cityconstructors.com";
     $subject = "Contact from City Constructors Website";
     $name_field = $_POST['Name'];
     $email_field = $_POST['Email'];
     $message = $_POST['Message'];
-    $headers = 'From: jason.sherwin@gmail.com' . "\r\n" .
+    $headers = 'From: ' . $to .  "\r\n" .
                'Reply-To: ' . $_POST['Email'] . "\r\n" .
                'X-Mailer: PHP/' . phpversion();
      
