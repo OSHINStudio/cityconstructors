@@ -50,6 +50,9 @@
                     <img src="./assets/images/5.jpg" class="none" />
                     <img src="./assets/images/6.jpg" class="none" />
                     <img src="./assets/images/7.jpg" class="none" />
+                    <img src="./assets/images/8.jpg" class="none" />
+                    <img src="./assets/images/9.jpg" class="none" />
+                    <img src="./assets/images/10.jpg" class="none" />
                 </div><!--#slider-->
 
                 <div id="slider-nav">
