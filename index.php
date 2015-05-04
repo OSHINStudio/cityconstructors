@@ -9,7 +9,7 @@
 
         <link rel="stylesheet" type="text/css" href="//cloud.typography.com/7993912/615326/css/fonts.css" />
 
-        <link rel="stylesheet" href="./assets/styles/style.min.css">
+        <link rel="stylesheet" href="./assets/styles/style.min.css?v=2">
 
         <link rel="icon" href="favicon.ico?v=2" type="image/x-icon">
 
