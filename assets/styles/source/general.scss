@@ -69,6 +69,7 @@ a {
     position: absolute;
     @include transition(background-color $default-speed $default-transition);
     @include retina-image('../images/next-prev', 80px 50px, 'png');
+    background-size:80px 50px;
   }
 
   span:hover {
@@ -97,6 +98,7 @@ a {
       position: relative;
       float:left;
       @include retina-image('../images/next-prev', 160px 100px, 'png');
+      background-size:160px 100px;
     }
 
     #slider-next {
