@@ -114,13 +114,13 @@ a {
   position: absolute;
   top:0;
   left:0;
-  z-index: 1000;
+  z-index: 940;
   border:10px solid transparent;
 
   @include media($mid-mobile) {
     border:30px solid transparent;
   }
-  
+
   @include media($modal) {
     width:520px;
     height:180px;
