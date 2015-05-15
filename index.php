@@ -59,6 +59,14 @@
                     <span id="slider-prev"></span>
                     <span id="slider-next"></span>
                 </div><!--#slider-nav-->
+
+                <div id="slider-modal-wrap">
+                    <div id="slider-modal">
+                        <h2>New site coming fall '15</h2>
+                        <p>Check out our splash page while we're building a new cityconstructors.com</p>
+                        <span id="close-btn"></span>
+                    </div><!--#slider-modal-->
+                </div><!--#slider-modal-wrap-->
             </div><!--#slider-wrap-->
 
             <div id="corporate-profile" class="wrap section">
