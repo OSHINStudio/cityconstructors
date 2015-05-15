@@ -37,7 +37,9 @@ CCI.app = (function() {
             });
 
             $('#close-btn').on('click', function(){
-                $('#slider-modal-wrap').remove();
+                $('#slider-modal-wrap').fadeOut(function(){
+                    $(this).remove();
+                });
             });
             // $('#contact-form input[type="submit"]').on('click', function(){
 

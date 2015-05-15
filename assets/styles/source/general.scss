@@ -117,12 +117,12 @@ a {
   z-index: 1000;
   border:10px solid transparent;
 
-  @include media($mid-mobile) {
-    width:460px;
+  @include media($modal) {
+    width:550px;
     height:200px;
     top:50%;
     left:50%;
-    margin:-100px 0 0 -230px;
+    margin:-100px 0 0 -275px;
   }
 }
 
@@ -160,8 +160,14 @@ a {
     cursor: pointer;
   }
 
-  @include media($mid-mobile) {
+  @include media($modal) {
     padding:50px 30px;
+    h2 {
+      font-size:30px;
+    }
+    p {
+      font-size:18px;
+    }
   }
 }
 

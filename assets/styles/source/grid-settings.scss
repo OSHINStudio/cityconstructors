@@ -8,5 +8,6 @@ $max-width: em(1200);
 
 // Define your breakpoints
 $mid-mobile: new-breakpoint(min-width 480px);
+$modal: new-breakpoint(min-width 600px);
 $tablet: new-breakpoint(min-width 810px);
 $desktop: new-breakpoint(min-width 1200px);
